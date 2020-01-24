@@ -1,0 +1,7 @@
+---
+#
+- name: Install the latest modules for k8s
+  pip:
+    name:
+      - openshift
+      - kubernetes
